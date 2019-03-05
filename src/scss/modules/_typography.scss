@@ -1,0 +1,33 @@
+
+/* Mixin for responsive font sizing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+html, body, button, input {
+  @include fluid-type($small, $large, $min_font, $max_font);
+}
+
+
+/* Paragraphs
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+p, li {
+  color: $offBlack;
+  font-family: $arialFont;
+  line-height: 1.4;
+}
+
+.sm-font {
+	font-size: 50%;
+}
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+ol, ul {
+  list-style: outside;
+  list-style-type: square;
+  margin-left: 1.5em;
+}
+
+ul li {
+  color: $offBlack;
+}

@@ -1,0 +1,56 @@
+
+/* General layout and styling
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+#root {
+  background: #fbfbfb;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  padding: 4em 8em;
+  height: 80vh;
+  width: 70vw;
+  margin: 8vh auto;
+}
+
+input {
+  margin-bottom: 1em;
+  width: 100%;
+  min-width: 15em;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+/* Util 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Responsive 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media all and (max-width: 1280px) {
+  #root {
+    background: none;
+    box-shadow: none;
+    padding: 1em;
+  }
+}
+
+@media all and (max-height: 900px) {
+  #root {
+    background: none;
+    box-shadow: none;
+    padding: 1em;
+  }
+}
