@@ -3,13 +3,13 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 body {
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
+  background: #F4F4F4;
 }
 
 #root {
-  background: #fbfbfb;
+  background: #fff;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16);
   padding: 4em 8em;
   height: 80vh;

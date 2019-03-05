@@ -3,109 +3,109 @@
 
 const searchList = [
   { 
-    name: 'freeCodeCamp', 
+    name: 'FreeCodeCamp', 
     url: 'https://github.com/freeCodeCamp/freeCodeCamp', 
     stars: '298k', 
     class: ''
   },
   { 
-    name: 'bootstrap', 
+    name: 'Bootstrap', 
     url: 'https://github.com/twbs/bootstrap', 
     stars: '131k', 
     class: ''
   },
   { 
-    name: 'vue', 
+    name: 'Vue', 
     url: 'https://github.com/vuejs/vue', 
     stars: '130k', 
     class: ''
   },
   { 
-    name: 'react', 
+    name: 'React', 
     url: 'https://github.com/facebook/react', 
     stars: '124k', 
     class: ''
   },
   { 
-    name: 'd3', 
+    name: 'D3', 
     url: 'https://github.com/d3/d3', 
     stars: '82.8k', 
     class: ''
   },
   { 
-    name: 'airbnb', 
+    name: 'Airbnb', 
     url: 'https://github.com/airbnb/javascript', 
     stars: '82.4k', 
     class: ''
   },
   { 
-    name: 'react native', 
+    name: 'React native', 
     url: 'https://github.com/facebook/react-native', 
     stars: '74.7k', 
     class: ''
   },
   { 
-    name: 'create-react-app', 
+    name: 'Create-react-app', 
     url: 'https://github.com/facebook/create-react-app', 
     stars: '64.5k', 
     class: ''
   },
   { 
-    name: 'angular', 
+    name: 'Angular', 
     url: 'https://github.com/angular/angular.js', 
     stars: '59.4k', 
     class: ''
   },
   { 
-    name: 'font-awesome', 
+    name: 'Font-awesome', 
     url: 'https://github.com/FortAwesome/Font-Awesome', 
     stars: '59k', 
     class: ''
   },
   { 
-    name: 'nodejs', 
+    name: 'Nodejs', 
     url: 'https://github.com/nodejs/node', 
     stars: '58.7k', 
     class: ''
   },
   { 
-    name: 'axios', 
+    name: 'Axios', 
     url: 'https://github.com/axios/axios', 
     stars: '55.9k', 
     class: ''
   },
   { 
-    name: 'jquery', 
+    name: 'jQuery', 
     url: 'https://github.com/jquery/jquery', 
     stars: '51k', 
     class: ''
   },
   { 
-    name: 'three.js', 
+    name: 'Three.js', 
     url: 'https://github.com/mrdoob/three.js', 
     stars: '49.2', 
     class: ''
   },
   { 
-    name: 'atom', 
+    name: 'Atom', 
     url: 'https://github.com/atom/atom', 
     stars: '48k', 
     class: ''
   },
   { 
-    name: 'webpack', 
+    name: 'Webpack', 
     url: 'https://github.com/webpack/webpack', 
     stars: '47.4k', 
     class: ''
   },
   { 
-    name: 'redux', 
+    name: 'Redux', 
     url: 'https://github.com/reduxjs/redux', 
     stars: '47.2k', 
     class: ''
   },
   { 
-    name: 'javascript-algorithms', 
+    name: 'Javascript-algorithms', 
     url: 'https://github.com/trekhleb/javascript-algorithms', 
     stars: '45.5k', 
     class: ''
