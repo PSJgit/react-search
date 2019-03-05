@@ -4,11 +4,10 @@ import { GithubStar } from './components/svgs.js'
 const Search = (props) => {
 
   const [searchInput, updateSearchInput] = useState('')
-  const searchList = props.searchFrom
+  let searchList = props.searchFrom
 
   const handleChange = (e) => {
-    let userInput = e.target.value.trim().toLowerCase()
-    updateSearchInput(userInput)
+    updateSearchInput(e.target.value.trim().toLowerCase())
   }
 
   if (searchInput.length > 0) {
