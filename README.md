@@ -6,7 +6,7 @@ Tiny search function for lists and the like, in React
 
 ## Demo
 
-Go here: [React-search](https://psjgit.github.io/React-search/)
+Go here: [React-search](https://psjgit.github.io/react-search/)
 
 ## Built With
 
